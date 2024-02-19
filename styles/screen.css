@@ -27,7 +27,7 @@ header h1 {
 main {
     background: url('/images/polaroid.png') no-repeat center 100px;
     margin: 0 auto;
-    width: 1000px;
+    width: 800px;
 }
 
 .hero {
@@ -40,6 +40,20 @@ main {
     line-height: 1em;
     text-transform: uppercase;
     margin: 0;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 36px;
+}
+
+.details ul{
+    padding-inline-start: 0px;
+   
 }
 
 .details ul li {
@@ -64,6 +78,10 @@ main {
     background: url('/images/photo-film-solid 1.svg') no-repeat center left; 
 }
 
+section {
+    padding-bottom: 32px;
+}
+
 form input[type="text"] {
     width: 450px;
     height: 66px;   
@@ -85,10 +103,11 @@ form input[type="button"] {
     height: 66px;
     background: var(--accent-color);
     color: var(--main-bg-color);
+    text-transform: uppercase;
     font-size: 1.2em;
     font-weight: 900;
     text-indent: 20px;
-    margin-right: 5px;
+    margin-right: 0px;
     margin-top: auto;
     cursor: pointer;
     border: none;
