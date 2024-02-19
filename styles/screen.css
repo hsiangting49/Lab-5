@@ -25,9 +25,11 @@ header h1 {
 }
 
 main {
-    background: url('/images/polaroid.png') no-repeat center 100px;
+    background: url('/images/polaroid.png') no-repeat center 180px;
+    background-size: contain;
     margin: 0 auto;
     width: 800px;
+
 }
 
 .hero {
